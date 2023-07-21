@@ -12,7 +12,7 @@ import { useState } from 'react';
         
         const HandleProduct =  async(e) => {
             e.preventDefault();
-            const res = await axios.post("http://127.0.0.1:5000/addproducts",{
+            const res = await axios.post("http://165.232.177.108:5000/addproducts",{
                 id: params[1],
                 name: name,
                 image: image

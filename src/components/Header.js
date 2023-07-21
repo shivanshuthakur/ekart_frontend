@@ -5,6 +5,8 @@ const Header =() => {
     const handleLogout = () => {
       localStorage.removeItem("uemail");
       window.location.href="/login"
+
+      
     }
 
     return(

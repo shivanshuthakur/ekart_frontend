@@ -8,14 +8,12 @@ const Home =() =>{
   },[]);
   
    async function getcategories(){
-    const res = await axios.get("http://127.0.0.1:5000/categories");
+    const res = await axios.get("http://165.232.177.108:5000/categories");
     setcategories(res.data);
     console.log(res);
 
-    
    }
-
-  
+   
     return(
 
 <>

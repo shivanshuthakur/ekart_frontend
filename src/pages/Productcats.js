@@ -11,7 +11,7 @@ import { useState } from 'react';
         
         const HandleProduct =  async(e) => {
             e.preventDefault();
-            const res = await axios.post("http://127.0.0.1:5000/products",{
+            const res = await axios.post("http://165.232.177.108:5000/products",{
                 id: params[1],
                 name: name,
                 image: image
@@ -80,7 +80,7 @@ import { useState } from 'react';
         <button className="w-100 btn btn-primary btn-lg" type="submit" >
           Continue to checkout
         </button>
-        </div>s
+        </div>
       </form>
     </div>
    
